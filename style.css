@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 375px) {
+  .main-container {
+    width: 90%;
+    margin: 0 auto; 
+
+  }
+
+  .cards-container {
+    border-radius: 20px;
+    padding: 70px 0px;
+  }
+
+  .sedans-card {
+    height: 30%;
+    background: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0px 0px;
+    padding: 13% 14%;
+  }
+
+  .headers {
+    padding: 9% 0%;
+    font-family: 'Big Shoulders Display', cursive; 
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+  }
+
+  .demonstrations {
+    padding-bottom: 5%;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 8%;
+  }
+
+  .hoverable-para-sedan {
+    background: white;
+    font-size: 16px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(31, 77%, 52%);    
+    text-align: center;
+    max-width: 140px;    
+    padding: 5% 0;
+    border-radius: 50px;
+  }
+
+  .suvs-card {
+    height: 30%;
+    background: hsl(184, 100%, 22%);
+    padding: 13% 14%;
+  }
+
+   .hoverable-para-suv {
+    background: white;
+    font-size: 16px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(184, 100%, 22%);  
+    text-align: center;
+    max-width: 140px;    
+    padding: 5% 0;
+    border-radius: 50px;
+  }
+
+  .luxary-card {
+    height: 30%;
+    background: hsl(179, 100%, 13%);
+    border-radius: 0px 0px 10px 10px;
+    padding: 13% 14%;
+  }
+
+  .hoverable-para-luxary {
+    background: white;
+    font-size: 16px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(179, 100%, 13%);  
+    text-align: center;
+    max-width: 140px;    
+    padding: 5% 0;
+    border-radius: 50px;
+  }
+
+  .attribution { 
+    font-size: 11px; text-align: center;
+    padding-top: 20px; 
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(184, 100%, 22%);
+    font-size: 12px;
+  }
+
+  .attribution a { 
+   color: hsl(179, 100%, 13%);
+  }
+}
+
+
+@media only screen and (min-width: 375px) {
+
+  .main-container {
+    width: 90%;
+    margin: 0 auto; 
+
+  }
+
+  .cards-container {
+    border-radius: 20px;
+    padding: 70px 0px;
+  }
+
+  .sedans-card {
+    height: 30%;
+    background: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0px 0px;
+    padding: 13% 14%;
+  }
+
+  .headers {
+    padding: 9% 0%;
+    font-family: 'Big Shoulders Display', cursive; 
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+  }
+
+  .demonstrations {
+    padding-bottom: 5%;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 8%;
+  }
+
+  .hoverable-para-sedan {
+    background: white;
+    font-size: 16px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(31, 77%, 52%);    
+    text-align: center;
+    max-width: 140px;    
+    padding: 5% 0;
+    border-radius: 50px;
+  }
+
+  .suvs-card {
+    height: 30%;
+    background: hsl(184, 100%, 22%);
+    padding: 13% 14%;
+  }
+
+   .hoverable-para-suv {
+    background: white;
+    font-size: 16px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(184, 100%, 22%);  
+    text-align: center;
+    max-width: 140px;    
+    padding: 5% 0;
+    border-radius: 50px;
+  }
+
+  .luxary-card {
+    height: 30%;
+    background: hsl(179, 100%, 13%);
+    border-radius: 0px 0px 10px 10px;
+    padding: 13% 14%;
+  }
+
+  .hoverable-para-luxary {
+    background: white;
+    font-size: 16px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(179, 100%, 13%);  
+    text-align: center;
+    max-width: 140px;    
+    padding: 5% 0;
+    border-radius: 50px;
+  }
+
+  .attribution { 
+    font-size: 11px; text-align: center;
+    padding-top: 20px; 
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(184, 100%, 22%);
+    font-size: 12px;
+  }
+
+  .attribution a { 
+   color: hsl(179, 100%, 13%);
+  }
+
+}
+
