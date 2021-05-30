@@ -127,10 +127,10 @@
   }
 
   .demonstrations {
-    padding-bottom: 5%;
+    padding-bottom: 8%;
     font-family: 'Lexend Deca', sans-serif;
     color: hsla(0, 0%, 100%, 0.75);
-    padding-bottom: 8%;
+    
   }
 
   .hoverable-para-sedan {
@@ -181,7 +181,7 @@
 
   .attribution { 
     font-size: 11px; text-align: center;
-    padding-top: 20px; 
+    padding: 20px 0px 30px 0px; 
     font-family: 'Lexend Deca', sans-serif;
     color: hsl(184, 100%, 22%);
     font-size: 12px;
@@ -189,6 +189,91 @@
 
   .attribution a { 
    color: hsl(179, 100%, 13%);
+  }
+
+}
+
+@media only screen and (min-width: 1080px) {
+
+  .main-container {  
+    width: 60%;
+    padding-top: 10%;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sedans-card {
+    border-radius: 10px 0px 0px 10px;
+    height: 570px;
+  }
+
+  .suvs-card {
+    height: 570px;
+  }
+
+  .luxary-card {
+    border-radius: 0px 10px 10px 0px;
+    height: 570px;
+  }
+
+  .car-images {
+    margin-top: -80%;
+    margin-left: -80%;
+  }
+
+
+  .headers {
+    margin-top: 20%;
+    margin-left: -80%;
+  }
+
+  .demonstrations {
+    margin-top: 20%;
+    margin-left: -80%;
+  }
+
+  .hoverable-para-sedan {
+    margin-top: 60%;
+    margin-left: -80%;
+    padding: 10px 0;
+  }
+
+  .hoverable-para-suv {
+    margin-top: 50%;
+    margin-left: -80%;
+    padding: 10px 0;
+  }
+
+  .hoverable-para-luxary {
+    margin-top: 20%;
+    margin-left: -80%;
+    padding: 10px 0;
+  }
+
+  .hoverable-para-sedan:hover {
+    border: 2px solid rgba(240, 240, 240, 0.8);
+    cursor: pointer;
+    color: rgba(240, 240, 240, 0.8);
+    background: hsl(31, 77%, 52%);
+  }
+
+  .hoverable-para-suv:hover {
+    border: 2px solid rgba(220, 220, 220, 0.8);
+    cursor: pointer;
+    color: rgba(240, 240, 240, 0.8);
+    background: hsl(184, 100%, 22%);
+  }
+
+  .hoverable-para-luxary:hover {
+    border: 2px solid rgba(220, 220, 220, 0.8);
+    cursor: pointer;
+    color: rgba(240, 240, 240, 0.8);
+    background: hsl(179, 100%, 13%);
   }
 
 }
