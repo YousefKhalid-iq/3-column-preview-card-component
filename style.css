@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 @media only screen and (max-width: 375px) {
@@ -209,16 +208,16 @@
 
   .sedans-card {
     border-radius: 10px 0px 0px 10px;
-    height: 570px;
+    height: 370px;
   }
 
   .suvs-card {
-    height: 570px;
+    height: 370px;
   }
 
   .luxary-card {
     border-radius: 0px 10px 10px 0px;
-    height: 570px;
+    height: 370px;
   }
 
   .car-images {
@@ -240,19 +239,19 @@
   .hoverable-para-sedan {
     margin-top: 60%;
     margin-left: -80%;
-    padding: 10px 0;
+    padding: 10px 10px;
   }
 
   .hoverable-para-suv {
     margin-top: 50%;
     margin-left: -80%;
-    padding: 10px 0;
+    padding: 10px 10px;
   }
 
   .hoverable-para-luxary {
-    margin-top: 20%;
+    margin-top: 50%;
     margin-left: -80%;
-    padding: 10px 0;
+    padding: 10px 20px;
   }
 
   .hoverable-para-sedan:hover {
