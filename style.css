@@ -37,14 +37,14 @@
     padding-bottom: 8%;
   }
 
-  .hoverable-para-sedan {
+  .hoverable-button-sedan {
     background: white;
     font-size: 16px;
     font-family: 'Lexend Deca', sans-serif;
     color: hsl(31, 77%, 52%);    
     text-align: center;
     max-width: 140px;    
-    padding: 5% 0;
+    padding: 5% 3%;
     border-radius: 50px;
   }
 
@@ -54,14 +54,14 @@
     padding: 13% 14%;
   }
 
-   .hoverable-para-suv {
+   .hoverable-button-suv {
     background: white;
     font-size: 16px;
     font-family: 'Lexend Deca', sans-serif;
     color: hsl(184, 100%, 22%);  
     text-align: center;
     max-width: 140px;    
-    padding: 5% 0;
+    padding: 5% 3%;
     border-radius: 50px;
   }
 
@@ -72,14 +72,14 @@
     padding: 13% 14%;
   }
 
-  .hoverable-para-luxary {
+  .hoverable-button-luxary {
     background: white;
     font-size: 16px;
     font-family: 'Lexend Deca', sans-serif;
     color: hsl(179, 100%, 13%);  
     text-align: center;
     max-width: 140px;    
-    padding: 5% 0;
+    padding: 5% 3%;
     border-radius: 50px;
   }
 
@@ -132,14 +132,14 @@
     
   }
 
-  .hoverable-para-sedan {
+  .hoverable-button-sedan {
     background: white;
     font-size: 16px;
     font-family: 'Lexend Deca', sans-serif;
     color: hsl(31, 77%, 52%);    
     text-align: center;
     max-width: 140px;    
-    padding: 5% 0;
+    padding: 5% 6%;
     border-radius: 50px;
   }
 
@@ -149,14 +149,14 @@
     padding: 13% 14%;
   }
 
-   .hoverable-para-suv {
+   .hoverable-button-suv {
     background: white;
     font-size: 16px;
     font-family: 'Lexend Deca', sans-serif;
     color: hsl(184, 100%, 22%);  
     text-align: center;
     max-width: 140px;    
-    padding: 5% 0;
+    padding: 5% 6%;
     border-radius: 50px;
   }
 
@@ -167,14 +167,14 @@
     padding: 13% 14%;
   }
 
-  .hoverable-para-luxary {
+  .hoverable-button-luxary {
     background: white;
     font-size: 16px;
     font-family: 'Lexend Deca', sans-serif;
     color: hsl(179, 100%, 13%);  
     text-align: center;
     max-width: 140px;    
-    padding: 5% 0;
+    padding: 5% 6%;
     border-radius: 50px;
   }
 
@@ -236,39 +236,39 @@
     margin-left: -80%;
   }
 
-  .hoverable-para-sedan {
+  .hoverable-button-sedan {
     margin-top: 60%;
     margin-left: -80%;
-    padding: 10px 10px;
+    padding: 10px 20px;
   }
 
-  .hoverable-para-suv {
-    margin-top: 50%;
-    margin-left: -80%;
-    padding: 10px 10px;
-  }
-
-  .hoverable-para-luxary {
+  .hoverable-button-suv {
     margin-top: 50%;
     margin-left: -80%;
     padding: 10px 20px;
   }
 
-  .hoverable-para-sedan:hover {
+  .hoverable-button-luxary {
+    margin-top: 50%;
+    margin-left: -80%;
+    padding: 10px 20px;
+  }
+
+  .hoverable-button-sedan:hover {
     border: 2px solid rgba(240, 240, 240, 0.8);
     cursor: pointer;
     color: rgba(240, 240, 240, 0.8);
     background: hsl(31, 77%, 52%);
   }
 
-  .hoverable-para-suv:hover {
+  .hoverable-button-suv:hover {
     border: 2px solid rgba(220, 220, 220, 0.8);
     cursor: pointer;
     color: rgba(240, 240, 240, 0.8);
     background: hsl(184, 100%, 22%);
   }
 
-  .hoverable-para-luxary:hover {
+  .hoverable-button-luxary:hover {
     border: 2px solid rgba(220, 220, 220, 0.8);
     cursor: pointer;
     color: rgba(240, 240, 240, 0.8);
